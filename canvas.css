@@ -1,0 +1,67 @@
+canvas {
+    border: 1px solid black;
+}
+
+.canvas{
+    position: relative;
+}
+
+.container{
+    float: left;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    height: 334px;
+}
+
+.container button{
+    background-color: lightblue;
+}
+
+.container button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+#clear-canvas-button{
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    width: 604px;
+    background-color: lightblue;
+    height: 25px;
+}
+
+#clear-canvas-button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+#calculated-shape{
+    word-wrap: break-word;
+    width: 172px;
+    height: 36px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    color: rgb(23, 184, 238);
+}
+
+#errors-div{
+    position: absolute;
+    top: 409px;
+    left: 28px;
+    width: 215px;
+    height: 130px;
+    overflow-y: auto;
+}
+
+#errors-paragraph{
+    background-color: red;
+    font-weight: bold;
+}
+
+#clear-inputs{
+    width: 171px;
+    margin-top: 2px;
+}
+
